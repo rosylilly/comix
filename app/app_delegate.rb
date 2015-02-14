@@ -10,6 +10,7 @@ class AppDelegate
       backing: NSBackingStoreBuffered,
       defer: false)
     @mainWindow.title = NSBundle.mainBundle.infoDictionary['CFBundleName']
+    @mainWindow.setCollectionBehavior(NSWindowCollectionBehaviorFullScreenPrimary)
     @mainWindow.orderFrontRegardless
   end
 end

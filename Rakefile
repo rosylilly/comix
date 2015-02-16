@@ -13,4 +13,9 @@ Motion::Project::App.setup do |app|
   app.name = 'comix'
   app.identifier = 'org.aduca.comix'
   app.copyright = "Copyright © 2015 Sho Kusano. All rights reserved."
+  app.frameworks << 'Quartz'
+
+  app.pods do
+    instance_eval(File.read('Podfile'))
+  end
 end

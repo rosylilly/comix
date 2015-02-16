@@ -1,0 +1,16 @@
+PODS:
+  - zipzap (8.0.3):
+    - zipzap/c++ (= 8.0.3)
+    - zipzap/objc (= 8.0.3)
+    - zipzap/objc++ (= 8.0.3)
+  - zipzap/c++ (8.0.3)
+  - zipzap/objc (8.0.3)
+  - zipzap/objc++ (8.0.3)
+
+DEPENDENCIES:
+  - zipzap
+
+SPEC CHECKSUMS:
+  zipzap: 8f5985f43f1ed06e7926591a12db8527509a6130
+
+COCOAPODS: 0.35.0
